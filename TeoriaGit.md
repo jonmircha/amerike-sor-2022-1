@@ -1,15 +1,3 @@
----
-layout: ../layouts/Posts.astro
-title: Git
-description:
-image:
-url:
-date:
-author: jonmircha
-tags: git, github
-draft: false
----
-
 # _Git_
 
 1. [Introducción](#introducción)
