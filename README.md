@@ -6,7 +6,8 @@ Repositorio de recursos de la materia Sistemas Operativos y Redes de Amerike. Se
 
 - [_Syllabus_](Syllabus_SistemasOperativosRedes.pdf)
 - [Teoría S.O. y Redes](https://www.figma.com/file/HgxwQiIjpPUmd1YXzhAc4m/Sistemas-Operativos-y-Redes)
-- [Teoría _Markdown_](PracticasGit.md)
+- [Teoría _Markdown_](TeoriaMarkdown.md)
+- [Teoría _Git_](TeoriaGit.md)
 - [Prácticas _Git_](PracticasGit.md)
 - [Repositorio de Prácticas _Git_](https://github.com/jonmircha/amerike-repaso-git)
 
@@ -77,14 +78,12 @@ Repositorio de recursos de la materia Sistemas Operativos y Redes de Amerike. Se
 ```bash
   git branch
   git checkout -b rama
-  git branch -d rama
 ```
 
 ### Comandos Fusión
 
 ```bash
   git ckeckout rama-principal
-  cat nombre.archivo
   git merge rama-secundaria
   git reflog
   git log --oneline --graph
