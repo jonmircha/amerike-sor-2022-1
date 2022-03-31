@@ -24,6 +24,10 @@ Repositorio de recursos de la materia Sistemas Operativos y Redes de Amerike. Se
   git config --list
   git config --global -e
   git config -h
+  # saltos de línea en windows
+  git config --global core.autocrlf true
+  # saltos de línea en mac/linux
+  git config --global core.autocrlf input
   git help config
 ```
 
