@@ -104,3 +104,14 @@ Repositorio de recursos de la materia Sistemas Operativos y Redes de Amerike. Se
   git checkout rama
   git push origin rama
 ```
+
+### Comandos _GitHub Pages_
+
+```bash
+  git clone https://github.com/usuario/repositorio.git
+  git branch gh-pages
+  git checkout gh-pages
+  git remote add origin https://github.com/usuario/repositorio.git
+  git push origin gh-pages
+  URL del proyecto https://usuario.github.io/repositorio/
+```
