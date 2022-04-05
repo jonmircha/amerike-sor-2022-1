@@ -115,3 +115,32 @@ Repositorio de recursos de la materia Sistemas Operativos y Redes de Amerike. Se
   git push origin gh-pages
   URL del proyecto https://usuario.github.io/repositorio/
 ```
+
+### Comandos Etiquetas
+
+```bash
+  git tag v0.1.0
+  git tag
+  git add .
+  git commit -m "v0.1.0"
+  git push origin v0.1.0
+```
+
+### Comandos _Pull Request_
+
+```bash
+  Forkear repositorio
+  git clone https://github.com/usuario/repositorio.git
+  git remote -v
+  git remote rename old new (origin fork)
+  git remote add origin https://github.com/usuario/repositorio.git
+  git ckeckout -b rama-nueva
+  git push fork rama-nueva
+  Solicitar el pull request
+  Aceptar el pull request
+  git checkout main
+  git pull origin main
+  git push fork main
+  git branch -d rama-nueva
+  git push fork --delete rama-nueva
+```
