@@ -37,3 +37,14 @@ En el archivo **README.md** agrega como contenido tu nombre completo, correo ele
 Manda el link de tu repositorio al correo **jmiranda@amerike.edu.mx**
 
 Se entrega en la clase del **21 de abril de 2022**.
+
+## Práctica 3
+
+En el archivo **README.md** debajo de tu informcación personal agrega a manera de acordeón para que siempre lo tengas a la mano el conjunto de comandos que necesitarías para:
+
+1. Crear e inicializar por primera vez un repositorio de _git_ y vincularlo a su repositrio remoto en _GitHub_.
+1. El flujo básico de agregar un cambio a la rama principal de tu repositorio.
+
+Recuerda usar el formato para escribir código de _Markdown_.
+
+Se entrega en la clase del **21 de abril de 2022**.
