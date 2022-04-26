@@ -1,5 +1,11 @@
 # Prácticas 3er Parcial
 
+## Secciones
+
+- [Calificaciones](#calificaciones)
+- [Prácticas](#prácticas)
+- [Comandos](#comandos)
+
 ## Calificaciones
 
 | Alumno                                                                                           | P1  | P2  | P3  |
@@ -15,7 +21,11 @@
 | Pacheco Díaz De León Carla Raquel                                                                | 0   | 0   | 0   |
 | [Piña Anzures Victor](https://github.com/AmerikeVPA/pi-a-anzures-victor-practicas-3)             | 10  | 10  | 8   |
 
-## Práctica 1
+[🔼Regresar](#secciones)
+
+## Prácticas
+
+### Práctica 1
 
 En una hoja de papel describe los comandos de los siguientes flujos de git:
 
@@ -24,7 +34,7 @@ En una hoja de papel describe los comandos de los siguientes flujos de git:
 
 Se entrega en la clase del **19 de abril de 2022**.
 
-## Práctica 2
+### Práctica 2
 
 Crea un repositorio en tu cuenta de _GitHub_ que tenga el siguiente formato de nombre:
 
@@ -38,7 +48,7 @@ Manda el link de tu repositorio al correo **jmiranda@amerike.edu.mx**
 
 Se entrega en la clase del **21 de abril de 2022**.
 
-## Práctica 3
+### Práctica 3
 
 En el archivo **README.md** debajo de tu informcación personal agrega a manera de acordeón para que siempre lo tengas a la mano el conjunto de comandos que necesitarías para:
 
@@ -48,3 +58,79 @@ En el archivo **README.md** debajo de tu informcación personal agrega a manera 
 Recuerda usar el formato para escribir código de _Markdown_.
 
 Se entrega en la clase del **21 de abril de 2022**.
+
+[🔼Regresar](#secciones)
+
+## Comandos
+
+### Git
+
+#### Creación de carpeta local
+
+```bash
+mkdir carpeta
+cd carpeta
+touch README.md
+touch .gitignore
+code .
+```
+
+#### Inicialización de repositorio
+
+```bash
+git init
+git config --local user.email tu@correo.com
+git add .
+git commit -m "Mensaje del cambio"
+git branch -M main
+git remote add origin https://github.com/usuario/repositorio.git
+git push -u origin main
+```
+
+#### Flujo básico de un cambio
+
+```bash
+git add .
+git commit -m "Mensaje del cambio"
+git push
+```
+
+#### Comandos para revisar status e historial de cambios
+
+```bash
+git status
+git log
+git log --oneline
+git log --oneline --graph
+```
+
+#### Comandos para descargar cambios del remoto
+
+```bash
+git pull
+```
+
+### Astro
+
+[Sitio Oficial](https://astro.build/)
+
+#### Instalación
+
+```bash
+mkdir carpeta-proyecto
+cd carpeta-proyecto
+npm create astro@latest
+# en el asistente de instalación escribir:
+#   y
+#   .
+#   elegir un template
+npm install
+```
+
+#### Comenzar la aplicación en local
+
+```bash
+npm start
+```
+
+[🔼Regresar](#secciones)
