@@ -59,6 +59,18 @@ Recuerda usar el formato para escribir código de _Markdown_.
 
 Se entrega en la clase del **21 de abril de 2022**.
 
+### Práctica 4
+
+1. Crea un sitio con _Astro_.
+1. En la página de inicio del sitio agrega tu información personal (la que tienes en el **README.md** del repositorio de entregas del tercer parcial).
+1. Crea un repositorio en _GitHub_ para tu sitio _Astro_.
+1. Despliega tu sitio en la nube de _Netlify_.
+1. Cuando termines, actualiza el **README.md** de tus entregas agregando:
+   - El enlace del repositorio de tu sitio _Astro_ en _Github_.
+   - El enlace de tu sitio _Astro_ desplegado en _Netlify_.
+
+Se entrega en la clase del **28 de abril de 2022**.
+
 [🔼Regresar](#secciones)
 
 ## Comandos
@@ -131,6 +143,12 @@ npm install
 
 ```bash
 npm start
+```
+
+#### Construir el sitio para producción
+
+```bash
+npm run build
 ```
 
 [🔼Regresar](#secciones)
