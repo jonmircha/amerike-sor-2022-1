@@ -8,7 +8,7 @@
 
 ## Calificaciones
 
-| Alumno                                                                                           | P1  | P2  | P3  |
+| Alumno                                                                                           | P1  | P2  | P3  | P4  |
 | ------------------------------------------------------------------------------------------------ | --- | --- | --- | --- |
 | [Calderón Ríos Luis Ricardo](https://github.com/Riku935/calderon-ricardo-practicas-3)            | 10  | 10  | 10  | 10  |
 | [Cruz Domínguez Aldo Axel](https://github.com/Alzound/CruzDominguez-AldoAxel-Practica3)          | 10  | 10  | 10  | 10  |
