@@ -9,17 +9,17 @@
 ## Calificaciones
 
 | Alumno                                                                                           | P1  | P2  | P3  |
-| ------------------------------------------------------------------------------------------------ | --- | --- | --- |
-| [Calderón Ríos Luis Ricardo](https://github.com/Riku935/calderon-ricardo-practicas-3)            | 10  | 10  | 10  |
-| [Cruz Domínguez Aldo Axel](https://github.com/Alzound/CruzDominguez-AldoAxel-Practica3)          | 10  | 10  | 10  |
-| [Escamilla Juárez Andrea](https://github.com/AndreaEJ22/escamilla-andrea-practicas-3)            | 10  | 10  | 10  |
-| [Estrada Ascencio Juan Raúl](https://github.com/JuanEstrada01/Estrada-Juan-practicas-3-)         | 10  | 10  | 10  |
-| [Flores Armas Carlos Alam](https://github.com/NegligentWhale7/Armas-Alam-practicas-3)            | 10  | 10  | 10  |
-| [Gutiérrez Salinas Tobías Armando](https://github.com/Tobias66Jags/gutierrez-tobias-practicas-3) | 10  | 10  | 10  |
-| [Montecino Sainz Néstor Camilo](https://github.com/LDom890/montecino-nestor-practicas-3)         | 10  | 10  | 10  |
-| [Morales Cabañas Pedro](https://github.com/MasterPedro1/morales-pedro-practica-3)                | 10  | 10  | 10  |
-| Pacheco Díaz De León Carla Raquel                                                                | 0   | 0   | 0   |
-| [Piña Anzures Victor](https://github.com/AmerikeVPA/pi-a-anzures-victor-practicas-3)             | 10  | 10  | 8   |
+| ------------------------------------------------------------------------------------------------ | --- | --- | --- | --- |
+| [Calderón Ríos Luis Ricardo](https://github.com/Riku935/calderon-ricardo-practicas-3)            | 10  | 10  | 10  | 10  |
+| [Cruz Domínguez Aldo Axel](https://github.com/Alzound/CruzDominguez-AldoAxel-Practica3)          | 10  | 10  | 10  | 10  |
+| [Escamilla Juárez Andrea](https://github.com/AndreaEJ22/escamilla-andrea-practicas-3)            | 10  | 10  | 10  | ❌  |
+| [Estrada Ascencio Juan Raúl](https://github.com/JuanEstrada01/Estrada-Juan-practicas-3-)         | 10  | 10  | 10  | ❌  |
+| [Flores Armas Carlos Alam](https://github.com/NegligentWhale7/Armas-Alam-practicas-3)            | 10  | 10  | 10  | ❌  |
+| [Gutiérrez Salinas Tobías Armando](https://github.com/Tobias66Jags/gutierrez-tobias-practicas-3) | 10  | 10  | 10  | 10  |
+| [Montecino Sainz Néstor Camilo](https://github.com/LDom890/montecino-nestor-practicas-3)         | 10  | 10  | 10  | ❌  |
+| [Morales Cabañas Pedro](https://github.com/MasterPedro1/morales-pedro-practica-3)                | 10  | 10  | 10  | ❌  |
+| [Pacheco Díaz De León Carla Raquel](https://github.com/QueenOfHell666/Pacheco-Carla-practicas-3) | 10  | 8   | 8   | 10  |
+| [Piña Anzures Victor](https://github.com/AmerikeVPA/pi-a-anzures-victor-practicas-3)             | 10  | 10  | 8   | ❌  |
 
 [🔼Regresar](#secciones)
 
