@@ -71,6 +71,14 @@ Se entrega en la clase del **21 de abril de 2022**.
 
 Se entrega en la clase del **28 de abril de 2022**.
 
+### Práctica 5
+
+1. Replica lo que hiciste en la práctica 4, pero en la plataforma de [Vercel](https://vercel.com/).
+1. Cuando termines, actualiza el **README.md** de tus entregas agregando:
+   - El enlace de tu sitio _Astro_ desplegado en _Vercel_.
+
+Se entrega en la clase del **03 de mayo de 2022**.
+
 [🔼Regresar](#secciones)
 
 ## Comandos
