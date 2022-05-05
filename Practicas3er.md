@@ -86,9 +86,10 @@ Se entrega en la clase del **03 de mayo de 2022**.
 1. Crea un archivo _Markdown_ en tu repositorio de entregas y llénalo con las entidades, relaciones y atributos de tu proyecto de base de datos.
 1. Esta práctica vale por 3: entidades, atributos y relaciones.
 1. Tu propuesta de base de datos deberá cumplir mínimo con:
-   - 3 entidades + 1 catálogo
-   - 5 relaciones
-   - Los valores de tu catálogo
+   - 3 entidades + 1 catálogo.
+   - Cada entidad con sus atributos correspondientes, identificando sus (**PK**), (**FK**) y (**UQ**).
+   - 5 relaciones.
+   - Los valores de tu catálogo.
 1. Cuando termines, actualiza el **README.md** de tus entregas agregando el link del documento.
 
 Se entrega a más tardar en la clase del **12 de mayo de 2022**.
