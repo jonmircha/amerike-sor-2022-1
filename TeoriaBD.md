@@ -69,7 +69,7 @@ Modelar las entidades que se ven involucradas en el funcionamiento de la app de 
 - user_name
 - email (**UQ**)
 - password
-- phone
+- phone (**UQ**)
 - bio
 - web
 - avatar
