@@ -39,7 +39,7 @@ Modelar las entidades que se ven involucradas en el funcionamiento de la app de 
 1. Comments
 1. Hearts
 1. Follows
-1. Countries (**_CAT_**)
+1. Countries
 
 ### Relaciones:
 
@@ -56,52 +56,52 @@ Modelar las entidades que se ven involucradas en el funcionamiento de la app de 
 
 #### Posts
 
-- post*id (\*\*\_PK*\*\*)
+- post_id (**PK**)
 - post_date
 - plot
 - photo
-- user (**_FK_**)
+- user (**FK**)
 
 #### Users
 
-- user (**_PK_**)
+- user (**PK**)
 - user_date
 - user_name
-- email (**_UQ_**)
+- email (**UQ**)
 - password
-- phone (**_UQ_**)
+- phone
 - bio
 - web
 - avatar
 - birthdate
 - genre
-- country (**_FK_** de **_CAT_**)
+- country (**FK** de **CAT**)
 
 #### Comments
 
-- comment*id (\*\*\_PK*\*\*)
+- comment_id (**PK**)
 - comment_date
 - comment
-- post*id (\*\*\_FK*\*\*)
-- user (**_FK_**)
+- post_id (**FK**)
+- user (**FK**)
 
 #### Hearts
 
-- heart*id (\*\*\_PK*\*\*)
+- heart_id (**PK**)
 - heart_date
-- post*id (\*\*\_FK*\*\*)
-- user (**_FK_**)
+- post_id (**FK**)
+- user (**FK**)
 
 #### Follows
 
-- follow*id (\*\*\_PK*\*\*)
+- follow_id (**PK**)
 - follow_date
 - follow_user
-- user (**_FK_**)
+- user (**FK**)
 
 #### Countries Catalog
 
-- country*id (\*\*\_PK*\*\*)
+- country_id (**PK**)
 - country_name
 
 ##### Countries Values
