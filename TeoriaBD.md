@@ -39,7 +39,7 @@ Modelar las entidades que se ven involucradas en el funcionamiento de la app de 
 1. Comments
 1. Hearts
 1. Follows
-1. Countries
+1. Countries (**CAT**)
 
 ### Relaciones:
 
@@ -75,7 +75,7 @@ Modelar las entidades que se ven involucradas en el funcionamiento de la app de 
 - avatar
 - birthdate
 - genre
-- country (**FK** de **CAT**)
+- country (**FK**)
 
 #### Comments
 
@@ -99,7 +99,7 @@ Modelar las entidades que se ven involucradas en el funcionamiento de la app de 
 - follow_user
 - user (**FK**)
 
-#### Countries Catalog
+#### Countries (**PK**)
 
 - country_id (**PK**)
 - country_name
