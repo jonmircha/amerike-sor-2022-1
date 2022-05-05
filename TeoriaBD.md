@@ -34,11 +34,12 @@ Modelar las entidades que se ven involucradas en el funcionamiento de la app de 
 
 ### Entidades:
 
-- Posts
-- Users
-- Comments
-- Hearts
-- Follows
+1. Posts
+1. Users
+1. Comments
+1. Hearts
+1. Follows
+1. Countries (**_CAT_**)
 
 ### Relaciones:
 
@@ -49,6 +50,7 @@ Modelar las entidades que se ven involucradas en el funcionamiento de la app de 
 1. Los **Posts** tienen **Hearts** (_1 - M_).
 1. Los **Users** tienen **Follows** (_1 - M_).
 1. Los **Users** siguen **Follows** (_1 - M_).
+1. Los **Users** tienen un **Countries** (_1 - 1_).
 
 ### Atributos:
 
@@ -67,7 +69,7 @@ Modelar las entidades que se ven involucradas en el funcionamiento de la app de 
 - user_name
 - email (**_UQ_**)
 - password
-- phone
+- phone (**_UQ_**)
 - bio
 - web
 - avatar
@@ -99,7 +101,7 @@ Modelar las entidades que se ven involucradas en el funcionamiento de la app de 
 
 #### Countries Catalog
 
-- country_id (**_PK_**)
+- country*id (\*\*\_PK*\*\*)
 - country_name
 
 ##### Countries Values
