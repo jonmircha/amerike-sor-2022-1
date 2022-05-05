@@ -11,6 +11,7 @@ Repositorio de recursos de la materia Sistemas Operativos y Redes de Amerike. Se
 - [Prácticas _Git_](PracticasGit.md)
 - [Repositorio de Prácticas _Git_](https://github.com/jonmircha/amerike-repaso-git)
 - [Prácticas 3er parcial](Practicas3er.md)
+- [Teoría _BD_](TeoriaBD.md)
 
 ## Comandos vistos en clase
 
