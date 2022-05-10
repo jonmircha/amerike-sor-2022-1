@@ -30,7 +30,7 @@ Modelar las entidades que se ven involucradas en el funcionamiento de la app de 
 - **_1 - M_** - One to Many
 - **_M - M_** - Many to Many
 
-## Modelo Entidad - Relación:
+## Modelo Entidad - Relación _Instagram_:
 
 ### Entidades:
 
@@ -300,3 +300,79 @@ Modelar las entidades que se ven involucradas en el funcionamiento de la app de 
 - Yibuti
 - Zambia
 - Zimbabue
+
+## Modelo Entidad - Relación _Herman Miller_:
+
+### Entidades:
+
+1. Colaboradores
+1. Departamentos (**CAT**)
+1. Centros (**CAT**)
+1. Paises (**CAT**)
+1. Accesos
+
+### Relaciones:
+
+1. Los **Colaboradores** generan **Accesos** (_1 - M_).
+1. Los **Colaboradores** pertenecen a **Departamentos** (_1 - 1_).
+1. Los **Colaboradores** pertenecen a **Centros** (_1 -1_).
+1. Los **Colaboradores** pertenecen a **Países** (_1 - 1_).
+1. Los **Centros** pertenecen a **Países** (_1 - 1_).
+1. Los **Departamentos** pertenecen **Países** (_1 - 1_).
+
+### Atributos:
+
+#### Colabordores
+
+- clave (**PK**)
+- nombre
+- puesto
+- correo
+- departamento (**FK**)
+- centro (**FK**)
+- país (**FK**)
+
+#### Departamentos
+
+- departamento_id (**PK**)
+- departamento
+- país (**FK**)
+
+#### Valores Departamentos
+
+- ADMON
+- NOCTURNO
+- CBS
+- CUSTOMER SERVICES
+- etc.
+
+#### Centros
+
+- centro_id (**PK**)
+- centro
+- país (**FK**)
+
+#### Valores Centros
+
+- Condesa
+- NDC
+- San Pedro
+- Santa Catarina
+- Diadema
+- Showroom Brasil
+
+#### Países
+
+- pais_id (**PK**)
+- pais
+
+#### Valores Países
+
+- Brasil
+- México
+
+#### Accesos
+
+- acceso_id (**PK**)
+- colaborador (**FK**)
+- estampa_tiempo
