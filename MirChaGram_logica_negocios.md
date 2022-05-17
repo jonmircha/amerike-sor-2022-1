@@ -1,41 +1,16 @@
-# Bases de Datos
+# Lógica de Negocios _MirChaGram_
 
-- **Base de Datos**: Colección o banco de información.
-- **Información**: Conjunto de datos organizados y clasificados, sobre un tema en particular, que ayuda a la toma de decisiones.
-- **Dato**: Unidad mínima de información.
+## Glosario
 
-## Modelo Entidad - Relación
+- **PK** - _Primary Key_
+- **FK** - _Foreign Key_
+- **UQ** - _Unique_
+- **CAT** - _Catalog_
+- **1 - 1** - _One to One_
+- **1 - M** - _One to Many_
+- **M - M** - _Many to Many_
 
-- **Entidades**: Son objetos distinguibles del resto, pe en un sistema bancario las personas y las cuentas son entidades. Éstas pueden ser entes concretos, como una persona o un avión, o abstractas, como un préstamo o una reserva. Se representan por medio de un rectángulo.
-- **Atributos**: Son propiedades de las entidades. Se representan mediante un círculo o elipse, cuando un atributo es identificativo de la entidad se subraya.
-- **Relación**: Describe la dependencia entre entidades o permite la asociación de las mismas; pe tenemos 2 entidades CLIENTE y HABITACIÓN, una relación sería que el cliente 'Pepito' tiene 'ocupada' la habitación '519'. Se representan por medio de un verbo de acción dentro de un rombo que une entidades.
-
-## Tipos de Relaciones:
-
-- **1 a 1**: Un esposo(e) está casado(r) con una única esposa(e) y viceversa.
-- **1 a M**: Una factura(e) se emite (r) a una persona(e) y sólo a una, pero una persona(e) puede tener(r) varias facturas(e) emitidas a su nombre. Todas las facturas(e) se emiten(r) a nombre de alguien(e).
-- **M a M**: Un cliente(e) puede comprar(r) varios productos(e) y un producto(e) puede ser comprado(r) por varios clientes(e).
-
-## Tipos de Datos:
-
-- [Tipos de Datos (MySQL Doc)](https://dev.mysql.com/doc/refman/5.7/en/data-types.html).
-- [Tipos de Datos (MySQL con clase)](http://mysql.conclase.net/curso/index.php?cap=005#).
-
-## Ejemplo en clase
-
-Modelar las entidades que se ven involucradas en el funcionamiento de la app de _Instagram_
-
-### Glosario
-
-- **_PK_** - Primary Key
-- **_FK_** - Foreign Key
-- **_UQ_** - Unique
-- **_CAT_** - Catalog
-- **_1 - 1_** - One to One
-- **_1 - M_** - One to Many
-- **_M - M_** - Many to Many
-
-## Modelo Entidad - Relación _Instagram_:
+## Modelo Entidad - Relación:
 
 ### Entidades:
 
@@ -44,7 +19,7 @@ Modelar las entidades que se ven involucradas en el funcionamiento de la app de 
 1. Comments
 1. Hearts
 1. Follows
-1. Countries (**CAT**)
+1. Countries
 
 ### Relaciones:
 
@@ -104,12 +79,12 @@ Modelar las entidades que se ven involucradas en el funcionamiento de la app de 
 - follow_user
 - user (**FK**)
 
-#### Countries (**PK**)
+#### Countries
 
 - country_id (**PK**)
 - country_name
 
-##### Countries Values
+##### Catálogo Countries
 
 - Afganistán
 - Albania
@@ -306,78 +281,57 @@ Modelar las entidades que se ven involucradas en el funcionamiento de la app de 
 - Zambia
 - Zimbabue
 
-## Modelo Entidad - Relación _Herman Miller_:
+## Modelo Relacional de la BD
 
-### Entidades:
+![Modelo Relacional MirChaGram](MirChaGram_modelo_relacional.png)
 
-1. Colaboradores
-1. Departamentos (**CAT**)
-1. Centros (**CAT**)
-1. Paises (**CAT**)
-1. Accesos
+## Reglas de Negocio
 
-### Relaciones:
+### Posts
 
-1. Los **Colaboradores** generan **Accesos** (_1 - M_).
-1. Los **Colaboradores** pertenecen a **Departamentos** (_1 - 1_).
-1. Los **Colaboradores** pertenecen a **Centros** (_1 -1_).
-1. Los **Colaboradores** pertenecen a **Países** (_1 - 1_).
-1. Los **Centros** pertenecen a **Países** (_1 - 1_).
-1. Los **Departamentos** pertenecen **Países** (_1 - 1_).
+1. Crear _post_.
+1. Leer todos los _posts_.
+1. Leer un _post_.
+1. Leer los _post_ de un _user_.
+1. Actualizar el _plot_ de un _post_.
+1. Eliminar _post_.
 
-### Atributos:
+### Users
 
-#### Colabordores
+1. Crear _user_.
+1. Leer todos los _users_.
+1. Leer un _user_.
+1. Validar un _user_.
+1. Actualizar datos del _user_.
+1. Actualizar _password_ de _user_.
+1. Eliminar _user_.
 
-- clave (**PK**)
-- nombre
-- puesto
-- correo
-- departamento (**FK**)
-- centro (**FK**)
-- país (**FK**)
+### Comments
 
-#### Departamentos
+1. Crear _comment_ en un _post_.
+1. Leer todos los _comments_ de un _post_.
+1. Leer un _comment_ de un _post_.
+1. Contar el número de _comments_ de un _post_.
+1. Actualizar el _comment_ de un _post_.
+1. Eliminar _comment_ en un _post_.
 
-- departamento_id (**PK**)
-- departamento
-- país (**FK**)
+### Hearts
 
-#### Valores Departamentos
+1. Crear _heart_ de _user_ en un _post_.
+1. Contar el número de _hearts_ de un _post_.
+1. Eliminar _heart_ de _user_ en un _post_.
 
-- ADMON
-- NOCTURNO
-- CBS
-- CUSTOMER SERVICES
-- etc.
+### Follows
 
-#### Centros
+1. Crear _follow_ de un _user_.
+1. Contar el número de _followers_ de un _user_.
+1. Contar el número de _followings_ de un _user_.
+1. Eliminar _follow_ de un _user_.
 
-- centro_id (**PK**)
-- centro
-- país (**FK**)
+### Countries
 
-#### Valores Centros
-
-- Condesa
-- NDC
-- San Pedro
-- Santa Catarina
-- Diadema
-- Showroom Brasil
-
-#### Países
-
-- pais_id (**PK**)
-- pais
-
-#### Valores Países
-
-- Brasil
-- México
-
-#### Accesos
-
-- acceso_id (**PK**)
-- colaborador (**FK**)
-- estampa_tiempo
+1. Crear _country_.
+1. Leer todos los _countries_.
+1. Leer un _country_.
+1. Actualizar un _country_.
+1. Eliminar _country_.
